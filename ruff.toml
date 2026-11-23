@@ -1,0 +1,7 @@
+target-version = "py312"
+line-length = 100
+
+[lint]
+# E/F: pycodestyle + pyflakes basics · I: import sorting · B: likely bugs
+# UP: modern syntax for py312 · SIM: simplifications
+select = ["E", "F", "I", "B", "UP", "SIM"]
